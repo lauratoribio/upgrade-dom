@@ -78,6 +78,10 @@ let body = document.querySelector("body")
     item.appendChild(p)
    })
    
+   //otra forma:
+   for(let div of allDivs) {
+       div.innerText = "<p>Voy dentro!</p>"
+   }
    
 
 
